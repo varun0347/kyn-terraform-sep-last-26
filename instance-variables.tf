@@ -8,14 +8,18 @@ variable "instance" {
 default = {
   "web1" = {
     vm_size = "Standard_F2as_v7"
-    availability_zone = "1"
+    availability_zone = "1" #each.value.availability_zone 1
     subnet_id = "web"
   }
   "web2" = {
     vm_size = "Standard_D2alds_v7"
-    availability_zone = "2"
+    availability_zone = "2" #each.value.availability_zone 2
     subnet_id = "web"
   }
-  
+  "web3" = {
+    vm_size = "Standard_F2as_v7"
+    availability_zone = "2" #each.value.availability_zone 2
+    subnet_id = "web"
+  }
 }
 }
