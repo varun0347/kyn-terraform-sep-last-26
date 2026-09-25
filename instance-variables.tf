@@ -18,7 +18,7 @@ default = {
   }
   "web3" = {
     vm_size = "Standard_F2as_v7"
-    availability_zone = "2" #each.value.availability_zone 2
+    availability_zone = "3" #each.value.availability_zone 2
     subnet_id = "web"
   }
 }
